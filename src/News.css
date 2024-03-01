@@ -1,0 +1,64 @@
+/* News.css */
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.03);
+  }
+  
+  strong {
+    display: block;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  p {
+    margin: 0;
+    color: #555;
+  }
+  
+  p.source {
+    font-weight: bold;
+    color: #27ae60;
+    margin-bottom: 8px;
+  }
+  
+  p.date {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Styling for the hover effect */
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    li {
+      width: 100%;
+    }
+  }
+  
+  
